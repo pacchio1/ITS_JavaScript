@@ -9,4 +9,3 @@ random = 'https://raw.githubusercontent.com/maboglia/ProgrammingResources/master
 random2 = 'https://raw.githubusercontent.com/maboglia/ProgrammingResources/master/images/dadi/f' + random2 + '.jpg';
 Dado1.src = random;
 Dado2.src = random2;
-Math.random()
