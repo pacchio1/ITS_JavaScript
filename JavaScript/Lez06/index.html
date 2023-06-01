@@ -7,7 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="MarcoPacchiotti_ordinatoreListe.js"></script>
+    <form method="post" action="">
+        <input type="username" id="username">
+        <input type="password" id="password">
+
+        <input type="submit" value="Login">
+    </form>
+    <script src="MarcoPacchiotti_ordinatoreListe.js">
+        const USER=document.querySelector("#username");
+        const PWD=document.querySelector("#password");
+        USER.onfocus=function() {console.log("sei dentro");}
+        PWD.addEventListener("focus",() => {console.log("sei dentro");});
+    </script>
 </body>
 </html>
-\
+
