@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./component-top-bar.component.css']
 })
 export class ComponentTopBarComponent {
+  nomeSito="il sito di pippo";
 
 }
